@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('/resources/static/images/backgro.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h2, h3 {
+	font-weight: bold;
+	color: #ffffff; /* 원하는 색상으로 변경 가능 */
+}
+
+.main-image {
+	float: right;
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+
+.main-description {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.login-form {
+	margin-top: 20px;
+}
+
+.container {
+	border-radius: 30px;
+	background: rgba(135, 206, 250, 0.7);
+}
+
+.main-description {
+	background: white;
+	padding: 15px; /* 적절한 여백 설정 */
+	border-radius: 10px; /* 가장자리를 오목하게 만듭니다. */
+}
+
+.welcome-message {
+	background: white;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding: 15px; /* 적절한 여백 설정 */
+	border-radius: 10px; /* 가장자리를 오목하게 만듭니다. */
+}
+
+.user-name {
+	font-weight: bold;
+	color: #007BFF; /* 원하는 색상으로 변경 가능 */
+}
+
+
+
+

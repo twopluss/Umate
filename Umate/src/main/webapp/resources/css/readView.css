@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('/resources/static/images/backgro.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	background: rgba(135, 206, 250, 0.5); /* 푸른색 배경에 투명도 0.5 적용 */
+}

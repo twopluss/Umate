@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('/resources/static/images/backgro.jpg');
+}
+
+.con{
+	background: rgba(135, 206, 250, 0.5); /* 푸른색 배경에 투명도 0.5 적용 */
+}
+
+label.control-label {
+	font-size: 18px; /* Adjust the font size as needed */
+	font-weight: bold;
+}
+
+.form-group.has-feedback {
+	margin-bottom: 20px; /* Add some spacing between form groups */
+}
+
+.btn-success, .btn-danger, .btn-warning {
+	font-size: 16px; /* Adjust the font size of buttons */
+	font-weight: bold;
+}
+
+
+
